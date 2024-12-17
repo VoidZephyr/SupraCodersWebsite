@@ -1,8 +1,3 @@
-# SupraCodersWebsite
-Here’s the updated **README** draft incorporating your improvements. I’ve highlighted the new features and updates while keeping the original structure intact.
-
----
-
 # **Capstone-SDI28-SupraDev**
 
 ## **Problem Statement**  
