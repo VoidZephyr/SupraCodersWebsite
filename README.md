@@ -14,39 +14,59 @@ There is currently no formal site used to request application creation/developme
 ---
 
 ## **Description**  
-SupraDev is a full-stack application consisting of a database, backend, and frontend. It serves as a platform for Supra Coders to create, manage, and track projects while maintaining a repository of all previously developed applications.
+SupraDev is a full-stack application consisting of a database, backend, and frontend. It serves as a platform for Supra Coders to create, manage, and track projects while maintaining a repository of all previously developed applications. It now supports enhanced collaboration, improved account management, and new milestone-tracking features.
 
 ---
 
 ## **New Features and Updates**  
 
+### **Updates from SDI-28**
 1. **Login and Authentication**:  
-   - Moved login and authentication functionality from the frontend to the backend for improved security.  
+   - Moved login and authentication from the frontend to the backend for enhanced security.  
    - Added confirmation messages for successful logins.  
 
-2. **Bug Fixes**:  
-   - Performed a comprehensive bug extermination and code optimization sweep across both old and new code.  
+2. **Bug Fixes and Code Optimization**:  
+   - Performed a complete bug sweep for both existing and newly written code.  
 
 3. **User Account Management**:  
-   - Modified the **POST** routing for user creation.  
-   - Prevented duplicate usernames during account registration.  
-   - Added the ability for users to create accounts with improved validation.  
+   - Added the ability to create user accounts.  
+   - Prevented duplicate usernames during registration.  
+   - Enforced roles and privileges for users: **Admin**, **SupraCoder**, **Leader**, and **General Users**.  
 
-4. **Roles and Privileges**:  
-   - Enforced roles and privileges: **Admin**, **SupraCoder**, and **General Users** for future scalability.  
-
-5. **Routing Improvements**:  
+4. **Routing and Security Improvements**:  
    - Reworked backend routing to improve security, functionality, and scalability.  
 
-6. **Milestone Features**:  
+5. **Milestone Features**:  
    - Added a **Milestone Status Bar** and **Milestone Status Page** for easier tracking of project progress.  
 
-7. **GUI and Functionality Enhancements**:  
-   - Improved functionality and design of the **Home Page** and **Profile Pages**.  
-   - Updated the **Project Submission Page** with enhanced functionality and user experience.  
+6. **GUI and Functionality Enhancements**:  
+   - Improved the **Home Page** and **Profile Pages** for better usability and design.  
+   - Enhanced the **Project Submission Page** with new functionality and UI updates.  
 
-8. **Database Updates**:  
-   - Updated database **seeding** and **migrations** to reflect new features.  
+7. **Database Updates**:  
+   - Updated **seeding** and **migrations** for backend databases to align with new features.  
+
+---
+
+### **Updates from SDI-18**  
+1. **Collaborative Projects**:  
+   - Added the ability for multiple **SupraCoders** to be associated with a project and work collaboratively.  
+
+2. **Project States**:  
+   - Added milestone states to projects for better tracking of progress.  
+
+3. **Homepage Enhancements**:  
+   - The homepage now shows an **overview of project states**.  
+   - If the user is not logged in, news and updates are displayed instead.  
+
+4. **Account Management**:  
+   - Account creation now supports multiple user levels: **Normal**, **SupraCoder**, **Leader**, and **Admin**.  
+
+5. **Profile Pages**:  
+   - Enhanced user profile pages to include more detailed information.  
+
+6. **Project Submission Page**:  
+   - Updated with improved functionality and layout for submitting projects.  
 
 ---
 
@@ -164,12 +184,12 @@ Ensure the correct version matches your existing data directory.
 ---
 
 ## **Future Updates**  
-- Additional improvements to security, user roles, and milestone features.  
-- Enhanced functionality for project tracking and reporting.  
+- Additional user role features (leader-specific controls).  
+- Improved notifications for project milestones.  
+- Enhancements for project state tracking and reporting.  
 
 ---
 
 ## **Contributors**  
 - Team: **OMEGA FALCON EAGLE SQUADRON**  
-
 
